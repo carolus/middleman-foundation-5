@@ -1,5 +1,15 @@
 # Changelog
 
+## 2014-12-13
+
+Set Foundation version to 5.5.0 in `bower.json`
+
+Run `bower update`
+
+Copy `bower_components/foundation/scss/foundation/_settings.scss` to `source/stylesheets/_settings.scss`
+
+Change Sass path for `@import "foundation/scss/foundation/functions";`
+
 ## 2014-08-09
 
 Run `foundation new middleman-foundation-5`, then merge in `middleman init middleman-foundation-5` (.gitignore and config.rb will conflict, merge by hand). Add bower_components to sprockets.append_path in config.rb.
