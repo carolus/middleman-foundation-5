@@ -10,6 +10,8 @@ Copy `bower_components/foundation/scss/foundation/_settings.scss` to `source/sty
 
 Change Sass path for `@import "foundation/scss/foundation/functions";`
 
+Update middleman gem to 3.3.7
+
 ## 2014-08-09
 
 Run `foundation new middleman-foundation-5`, then merge in `middleman init middleman-foundation-5` (.gitignore and config.rb will conflict, merge by hand). Add bower_components to sprockets.append_path in config.rb.
